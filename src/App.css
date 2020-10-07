@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* PRIMARY COLOR */
+.limeGreen {
+  color: #1DB489;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brightRed {
+  color: #DC414C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.facebook {
+  color: #198FF5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.twitter {
+  color: #1CA0F2
 }
 
-.App-link {
-  color: #61dafb;
+.youtube {
+  color: #C4032A
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instagram {
+  background: linear-gradient(#FDC468, #DF4996);
+}
+
+/* DARK THEME*/
+.dark-background {
+  background-color: #1E202A;
+}
+
+.dark-veryDarkBlue {
+  background-color: #1F212E;
+}
+
+.dark-cardBackground {
+  background-color: #252A41;
+}
+
+.dark-text {
+  color: #8B97C6;
+}
+
+.dark-whiteText {
+  color: #FFFFFF;
+}
+
+.dark-toggle {
+  background: linear-gradient(#378FE6, #3EDA82);
+}
+
+/* LIGHT THEME*/
+.light-background {
+  background-color: #FFFFFF;
+}
+
+.light-veryPaleBlue {
+  background-color: #F5F7FF;
+}
+
+.light-cardBackground {
+  background-color: #F0F2FA;
+}
+
+.light-text {
+  color: #63687E;
+}
+
+.light-darkText {
+  color: #1E202A;
+}
+
+p {
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../src/fonts/Inter.ttf");
 }
